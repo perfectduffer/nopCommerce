@@ -685,6 +685,9 @@ namespace Nop.Web.Framework.Migrations.UpgradeTo440
                 ["Products.ProductAttributes.NotAvailable"] = "Not available",
                 ["Enums.Nop.Core.Domain.Catalog.AttributeValueOutOfStockDisplayType.Disable"] = "Disable",
                 ["Enums.Nop.Core.Domain.Catalog.AttributeValueOutOfStockDisplayType.AlwaysDisplay"] = "Always display",
+
+                //#5400
+                ["Admin.ContentManagement.Forums.Forum.Fields.Name.Required"] = "Forum name is required.",
             }).Wait();
 
             // rename locales
